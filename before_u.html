@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Error: Miss "lang" attribute. Fix: Add "lang" attribute -->
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -30,6 +31,7 @@
         </ul>
       </nav>
       <a href="/">
+        <!-- Error: Missing "alt" attribute. Fix: Add "alt" attribute -->
         <img id="logo" src="images/8675309-l-o-g-o-before.png" alt="Accessible University" class="d-block"/>
       </a>
     </div>
@@ -348,7 +350,13 @@
     <button class="btn btn-primary" type="button" id="modalOkButton">OK</button>
   </div>
 
-  <div id="footer" role="contentinfo"><span>.</div>
+  <!-- 
+    Error: The footer has an invalid ARIA "role" and invalid ARIA attribute "aria-foo"
+          <span> tag is not closed.
+    Fix: Replace the role with a valid ARIA role for footer, delete the invalid attribute,
+        close the <span> tag.
+  -->
+  <div id="footer" role="contentinfo"><span>.</span></div>
 
 </body>
 </html>
