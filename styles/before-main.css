@@ -80,7 +80,7 @@ a:hover {
  * Overrides browsers' visible focus indicator
  *
  */
-a:hover, a:focus, input:focus {
-  outline: none;
-  border-color: transparent;
+/* Add a focus style for "Before" and "After" links */
+:focus {
+  outline: 3px solid lightgreen;
 }

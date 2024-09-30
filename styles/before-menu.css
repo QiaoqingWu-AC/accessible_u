@@ -15,11 +15,6 @@
 	margin-left: 5px;
 }
 
-/* Add a focus style for "Before" and "After" links */
-.utility-menu a:focus {
-  outline: 3px solid lightgreen;
-}
-
 .utility-menu li:last-child:before {
 	content: " | "
 }
@@ -29,7 +24,7 @@
   */
 
 .navbar-nav a:focus {
-	outline: 3px solid lightgreen;
+	outline: 1px dotted white;
 }
 .dropdown-menu {
 	margin-top:-1px;
