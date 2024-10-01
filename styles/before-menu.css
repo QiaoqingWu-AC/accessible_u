@@ -22,10 +22,6 @@
  /*
   * Main menu
   */
-
-.navbar-nav a:focus {
-	outline: 1px dotted white;
-}
 .dropdown-menu {
 	margin-top:-1px;
 }

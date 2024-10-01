@@ -63,10 +63,15 @@ p {
  * Uses color alone to communicate "link"
  *
  */
+/* 
+ * Error: the color contrast ratio is below 4.5:1
+ * Fix: change color to meet the standard
+ */
 a {
-  color: #777777;
-	text-decoration: none;
+  color: green;
+  text-decoration: underline;
 }
+
 /*
  * Provide additional visual cues to mouse users only
  *
