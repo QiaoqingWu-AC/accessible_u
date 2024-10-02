@@ -47,8 +47,13 @@
 }
 .main-footer {
   background: #333;
-  color: green
+  color: white;
 }
+
+.main-footer a {
+  color: lightgreen;
+}
+
 hr {
   border-bottom: 1px solid #999;
 }
